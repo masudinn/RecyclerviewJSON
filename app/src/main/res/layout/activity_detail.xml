@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail"
+    android:orientation="vertical">
+
+    <ImageView
+        android:padding="20dp"
+        android:layout_marginTop="-26dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/imgdetail"/>
+
+    <TextView
+        android:id="@+id/creatordetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/gotu"
+        android:text="creator"
+        android:textColor="@color/hitam"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/likedetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="like : "
+        android:fontFamily="@font/gotu"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/unduhdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unduh : "
+        android:fontFamily="@font/gotu"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/tagsdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tags : "
+        android:fontFamily="@font/gotu"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+
+</LinearLayout>

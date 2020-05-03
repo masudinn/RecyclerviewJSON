@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image"
+            android:src="@drawable/ic_launcher_background"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/hitam"
+            android:textStyle="bold"
+            android:fontFamily="@font/gotu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="create by "
+            android:textSize="20dp"
+            android:id="@+id/txtcreator"/>
+        <TextView
+            android:textColor="@color/hitam"
+            android:fontFamily="@font/gotu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tags"
+            android:textSize="13dp"
+            android:id="@+id/txttags"
+            android:layout_marginBottom="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/gotu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="-17dp"
+                android:text=""
+                android:drawableLeft="@drawable/star"
+                android:id="@+id/like"/>
+            <TextView
+                android:layout_marginRight="60dp"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/gotu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="unduh"
+                android:layout_marginLeft="39dp"
+                android:drawableLeft="@drawable/ic_der"
+                android:id="@+id/unduh"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
